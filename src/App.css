@@ -1,0 +1,46 @@
+body {
+  background: #f5f5f5;
+}
+.NavLink-item,
+.link-item {
+  color: #000;
+  text-decoration: none;
+}
+.NavLink-item.active .MuiListItem-button {
+  background-color: #1976d2;
+  color: #fff;
+}
+.NavLink-item.active .MuiListItem-button .MuiSvgIcon-root {
+  color: #fff;
+}
+
+.sub-menu .MuiListItem-button .MuiListItemText-primary {
+  font-size: 14px;
+}
+.MuiTableCell-root.MuiTableCell-head {
+  background-color: #fff;
+}
+.MuiTableSortLabel-root:hover .MuiTableSortLabel-icon {
+  opacity: 1;
+}
+
+/* .dropdown-items {
+  box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 2%) !important;
+  background-color: #fff !important;
+  padding: 5px 0px;
+} */
+
+.action-button-container {
+  margin-right: 10px;
+}
+.dropdown-items .MuiMenu-paper {
+  box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 2%) !important;
+}
+.dropdown-items .MuiMenuItem-root {
+  font-size: 15px;
+}
+.dropdown-items .MuiMenuItem-root .MuiSvgIcon-root {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
